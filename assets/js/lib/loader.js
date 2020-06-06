@@ -1,7 +1,7 @@
 const loaderWrapper = document.querySelector('.loader-wrapper');
 const loader = document.querySelector('.loader');
 
-const loadingTime = 1500;
+const loadingTime = 1200;
 
 setTimeout(() => {
     loader.style.transform = 'scale(100)';
