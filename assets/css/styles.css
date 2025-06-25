@@ -10,6 +10,9 @@ canvas,
 #overlay {
     position: absolute;
 }
+img {
+    pointer-events: none;
+}
 
 #overlay {
     font-family: 'Muli',
@@ -18,8 +21,9 @@ canvas,
     font-size: 1.1rem;
     padding: 40px;
     min-height: 300px;
-    width: 700px;
-    background: rgb(33, 50, 126, 0.3);
+    width: 580px;
+    /* background: rgba(107, 255, 81, 0.2); */
+    background: rgba(132, 255, 110, 0.5);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -31,8 +35,8 @@ canvas,
 #pp {
     margin-top: 10px;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 }
 
 #intro {
@@ -45,7 +49,7 @@ canvas,
 }
 
 #sociallinks a {
-    color: aquamarine;
+    color: rgb(77, 238, 230);
     padding: 4px 10px;
 }
 
@@ -58,6 +62,7 @@ canvas,
 }
 
 #instruction {
+    color:rgb(235, 87, 235);
     padding: 20px;
     font-size: 0.8rem;
 }
